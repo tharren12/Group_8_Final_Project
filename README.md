@@ -8,11 +8,11 @@
 
 ## Team Members
 
-* [Trevor Harren] (https://github.com/tharren12)
-* [Heather Lundy] (https://github.com/hal1277)
-* [Chuks Nwokedi] (https://github.com/Chuks-SN)
-* [Mark Okoli] (https://github.com/MasterMark2021)
-* [Sopika Sathiyaseelan] (https://github.com/sophiasathiyas)
+* [Trevor Harren](https://github.com/tharren12)
+* [Heather Lundy](https://github.com/hal1277)
+* [Chuks Nwokedi](https://github.com/Chuks-SN)
+* [Mark Okoli](https://github.com/MasterMark2021)
+* [Sopika Sathiyaseelan](https://github.com/sophiasathiyas)
 
 This site was built using [GitHub Pages](https://pages.github.com/).
 
