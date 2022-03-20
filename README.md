@@ -1,5 +1,8 @@
 # Housing Price Predictor
-![image](https://user-images.githubusercontent.com/92001105/159185004-07517832-7a16-438e-873c-4a9593e21272.png)
+
+<p align="center">
+  <img width="460" height="300" src="https://user-images.githubusercontent.com/92001105/159185004-07517832-7a16-438e-873c-4a9593e21272.png">
+</p>
 
 # Segment 1 Deliverable
 
