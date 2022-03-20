@@ -22,12 +22,10 @@ We believe this is one of the major life decisions an individual or family can m
 
 ## Data Sources 
 
-* Zillow House Price Data via Kaggle - https://www.kaggle.com/datasets/paultimothymooney/zillow-house-price-data
+* Housing Pricing data via Zillow House Price Data on Kaggle - https://www.kaggle.com/datasets/paultimothymooney/zillow-house-price-data
 * Population Data via US Census data - https://www.census.gov/data/tables/time-series/demo/popest/2010s-total-cities-and-towns.html
-* Unemployment and Median Household Income via Economic Research Service, U.S. Department of Agriculture - https://www.ers.usda.gov/data-products/county-level-data-sets/download-data/
+* Unemployment and Median Household Income data via Economic Research Service, U.S. Department of Agriculture - https://www.ers.usda.gov/data-products/county-level-data-sets/download-data/
 * Crime statistics data via the CORGIS Dataset Project - https://corgis-edu.github.io/corgis/csv/state_crime/
-
-
 
 ## Communication Protocol
 For this project we will be using Slack in conjunction with GitHub as our communication protocols. We will using Slack for all our discussions. GitHub will be used for the technical collaboration. Any changes will be communicated through Slack before they are committed and pushed to the GitHub repository. Jupiter Notebook and Google Collab will also be used at different stages in the project. 
