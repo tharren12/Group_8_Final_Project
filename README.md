@@ -22,6 +22,8 @@ We believe this is one of the major life decisions an individual or family can m
 
 ## Data Sources 
 
+* Zillow House Price Data via https://www.kaggle.com/datasets/paultimothymooney/zillow-house-price-data
+* 
 
 
 
