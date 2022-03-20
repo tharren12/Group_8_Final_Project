@@ -47,6 +47,10 @@ We will be able to see ongoing or finished tasks, the time spent on these tasks,
 
 ### ERD
 
+This flow chart outlines the intended databases and connections that will be utilized.
+
+![Group_8_Poject_ER_Design](https://user-images.githubusercontent.com/92001105/159188875-b8dc6516-4a71-48b5-94a7-346540be346c.png)
+
 ### Database Storage
 
 ### Visual Display
