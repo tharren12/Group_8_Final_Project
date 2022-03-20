@@ -22,8 +22,10 @@ We believe this is one of the major life decisions an individual or family can m
 
 ## Data Sources 
 
-* Zillow House Price Data via https://www.kaggle.com/datasets/paultimothymooney/zillow-house-price-data
-* 
+* Zillow House Price Data via Kaggle - https://www.kaggle.com/datasets/paultimothymooney/zillow-house-price-data
+* Population Data via US Census data - https://www.census.gov/data/tables/time-series/demo/popest/2010s-total-cities-and-towns.html
+* Unemployment and Median Household Income via Economic Research Service, U.S. Department of Agriculture - https://www.ers.usda.gov/data-products/county-level-data-sets/download-data/
+* Crime statistics data via the CORGIS Dataset Project - https://corgis-edu.github.io/corgis/csv/state_crime/
 
 
 
