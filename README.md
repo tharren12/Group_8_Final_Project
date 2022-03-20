@@ -34,6 +34,7 @@ For this project we will be using Slack in conjunction with GitHub as our commun
 
 * trevor_branch
 * ERD
+* Heather-branch
 
 ## Technology
 
@@ -51,3 +52,8 @@ We will be able to see ongoing or finished tasks, the time spent on these tasks,
 ### Visual Display
 
 ### Machine Learning Model
+
+This flow chart outlines the intended plan to create the machine learning model.  
+
+![Machine Learning Model Flow Chart](https://github.com/tharren12/Group_8_Final_Project/blob/500ded078ba0439e23801722cb7707570c39123b/ML_flow_chart.png)
+
