@@ -6,6 +6,16 @@
 
 # Segment 1 Deliverable
 
+## Team Members
+
+* [Trevor Harren] (https://github.com/tharren12)
+* [Heather Lundy] (https://github.com/hal1277)
+* [Chuks Nwokedi] (https://github.com/Chuks-SN)
+* [Mark Okoli] (https://github.com/MasterMark2021)
+* [Sopika Sathiyaseelan] (https://github.com/sophiasathiyas)
+
+
+
 ## Communication Protocol
 For this project we will be using Slack in conjunction with GitHub as our communication protocols. We will using Slack for all our discussions. GitHub will be used for the technical collaboration. Any changes will be communicated through Slack before they are committed and pushed to the GitHub repository. Jupiter Notebook and Google Collab will also be used at different stages in the project. 
 
