@@ -12,7 +12,6 @@
 * [Heather Lundy](https://github.com/hal1277)
 * [Chuks Nwokedi](https://github.com/Chuks-SN)
 * [Mark Okoli](https://github.com/MasterMark2021)
-* [Sopika Sathiyaseelan](https://github.com/sophiasathiyas)
 
 ## Project Overview
 
