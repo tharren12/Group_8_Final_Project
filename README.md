@@ -19,6 +19,10 @@ Housing prices have continued to rise across the US, but for how much longer? Wh
 
 We believe this is one of the major life decisions an individual or family can make and we are here to provide greater clarity for this significant decision point. In addition users will be able to use the Housing Price Prediction Tool to compare the city they are currently living in with potential new cities, in terms of incomes, population demographics, unemployment and crime statistics. This will provide users with a well-rounded resource to make a better informed decision.
 
+**Group Presentation Link using Google Slides** :
+
+https://docs.google.com/presentation/d/14glzSifOIVrHPW81Po0Lfthr_zLfvLNPCGAjE8V7Zto/edit?usp=sharing
+
 ## Data Sources 
 
 * Housing Pricing data via Zillow House Price Data on Kaggle - https://www.kaggle.com/datasets/paultimothymooney/zillow-house-price-data
