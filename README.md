@@ -23,6 +23,8 @@ We believe this is one of the major life decisions an individual or family can m
 
 https://docs.google.com/presentation/d/14glzSifOIVrHPW81Po0Lfthr_zLfvLNPCGAjE8V7Zto/edit?usp=sharing
 
+Group 8 Dashboard link : https://public.tableau.com/app/profile/trevor.harren/viz/HousingPricesandCityInformation/Story1?publish=yes
+
 ## Data Sources 
 
 * Housing Pricing data via Zillow House Price Data on Kaggle - https://www.kaggle.com/datasets/paultimothymooney/zillow-house-price-data
