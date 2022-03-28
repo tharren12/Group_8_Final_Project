@@ -62,6 +62,10 @@ This flow chart outlines the intended databases and connections that will be uti
 
 ### Visual Display
 
+The dashboard was created utilizing Tableau Public and an Excel file was used with various data inputs and the output from the Machine Learning model that predicts the future Housing Price.
+
+![image](https://user-images.githubusercontent.com/92001105/160496578-b92b0dc0-7c87-4595-9b91-1919f64aa464.png)
+
 ### Machine Learning Model
 
 This flow chart outlines the intended plan to create the machine learning model.  
