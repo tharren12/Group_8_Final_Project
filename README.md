@@ -23,6 +23,8 @@ We believe this is one of the major life decisions an individual or family can m
 
 https://docs.google.com/presentation/d/14glzSifOIVrHPW81Po0Lfthr_zLfvLNPCGAjE8V7Zto/edit?usp=sharing
 
+**Group 8 Dashboard link** : https://public.tableau.com/app/profile/trevor.harren/viz/HousingPricesandCityInformation/Story1?publish=yes
+
 ## Data Sources 
 
 * Housing Pricing data via Zillow House Price Data on Kaggle - https://www.kaggle.com/datasets/paultimothymooney/zillow-house-price-data
@@ -60,6 +62,10 @@ This flow chart outlines the intended databases and connections that will be uti
 
 ### Visual Display
 
+The dashboard was created utilizing Tableau Public and an Excel file was used with various data inputs and the output from the Machine Learning model that predicts the future Housing Price.
+
+![image](https://user-images.githubusercontent.com/92001105/160496578-b92b0dc0-7c87-4595-9b91-1919f64aa464.png)
+
 ### Machine Learning Model
 
 This flow chart outlines the intended plan to create the machine learning model.  
@@ -75,4 +81,6 @@ Feature Engineering: While the data set did contain data other than time series 
 Training/Testing: We wanted as much data as possible for the model to train on so 93% of the data was used for training and just 7% for testing.  Becuase it's a time series that we are working with we used the oldest 93% to train and reserved the newest observations for testing.  A random split would not make sense in this case since we are looking for trends with the progression of time.  
 
 Model: We have created an LSTM RNN model.  We felt this best suited our data since it's a time series and we have data over a substantial period of time for a substantial number of locations.  Though we expect this is the model that will work the best we are comparing to linear regression and other model types before making a final decision.  Curerntly the LSTM model does represent the overall trend of prices well but currently overestimates slightly so we will continue to refine.  
+
+Linear Regression: The initial data set contained data for over 50 states in the US, however, to acheive a functional model the data was filtered to just one region, New York. Columns and rows with null values as well as the RegionID, Region Type and State columns were dropped. These null columns only represented a small portion of the overall dataset, and the other three were not needed. The dataset had to be transposed so that the time series was in the first column and the house prices in the second column. The time data was converted from an object to datetime and then to a string to faciliate the linear regression functionality. This model predicts the past and future house prices with some degree of accuracy, we will be comparing this to other model types, including the LSTM, before making a final decision. 
 
