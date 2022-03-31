@@ -58,13 +58,17 @@ This flow chart outlines the intended databases and connections that will be uti
 
 ![Group_8_Poject_ER_Design](https://user-images.githubusercontent.com/92001105/159188875-b8dc6516-4a71-48b5-94a7-346540be346c.png)
 
-### Database Storage
+### Database Connection and Setup
 For our database, we will be using PostgreSQL by use of pgAdmin to connect to our AWS RDS Database and we are hosting our raw data in an AWS S3 bucket. This enables anyone with the access codes to work the project data. The entity relational diagram allowed for easier joining of tables with SQL and was a helpful reference while importing data into the database.  See Coonection details below, we have estabilshed connection to AWS and Postgress via Jupiter notebook (AWS_Jupiter Connection)
 
 PGHOST = 'housingtrends.cvhxdrb1pkps.us-east-2.rds.amazonaws.com'
+
 PGDATABASE = 'housingtrends'
+
 PGUSER = 'Postgres'
+
 PGPASSWORD = 'P***x*****'
+
 S3(bucket name) = projectgroup8
 
 ### Visual Display
