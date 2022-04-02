@@ -301,3 +301,9 @@ lat DECIMAL,
 lng DECIMAL,
 PRIMARY KEY (City)
 );
+
+--Creating new table for prediction output
+CREATE TABLE random_forest_deliverable_2_predictions(
+	Index INT, 
+	"0" DECIMAL(9,2)
+);
