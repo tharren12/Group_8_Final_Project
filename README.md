@@ -75,7 +75,7 @@ S3(bucket name) = projectgroup8
 
 The dashboard was created utilizing Tableau Public and an Excel file was used with various data inputs and the output from the Machine Learning model that predicts the future Housing Price.
 
-![image](https://user-images.githubusercontent.com/92001105/160496578-b92b0dc0-7c87-4595-9b91-1919f64aa464.png)
+![image](https://user-images.githubusercontent.com/92001105/161409280-08ae2800-923e-43fc-8dbc-8e8799aae89d.png)
 
 ### Machine Learning Model
 
