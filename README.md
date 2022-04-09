@@ -71,7 +71,17 @@ S3(bucket name) = projectgroup8
 
 ### Visual Display
 
-The dashboard was created utilizing Tableau Public and an Excel file was used with various data inputs and the output from the Machine Learning model that predicts the future Housing Price.
+In order to create the dashboard Tableau Public was utilized and the Housing Prices Prediction from the Machine Learning Model was combined with the following information:
+
+- Historical housing prices were sourced from Zillow via Kraggle
+- City Population Figures were sourced from US Census data
+- Per capita income from US Census data
+- Rental prices were sourced from Zumper National Rent Report
+- Industry information sourced from Bureau of Labour Statistics
+- Unemployment rate sourced from Bureau of Labour Statistics
+- Quality of Life Indexes sourced from Numbeo
+
+The Machine Learning extract and the above metrics were brought together and merged to create an input file for the dashboard and brough into Tableau.
 
 ![image](https://user-images.githubusercontent.com/92001105/162591484-67264284-9b6e-4a2c-be15-6f9aa33d7e29.png)
 
