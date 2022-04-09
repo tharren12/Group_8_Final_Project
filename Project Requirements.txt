@@ -1,4 +1,4 @@
-Requirements for this project are:
+**Requirements for this project are:**
 
 - Each member of the group leads a portion of the project. There will be a Project Manager, Database Lead, Machine Learning Lead, and a Dashboard Lead.
 
@@ -10,11 +10,11 @@ Requirements for this project are:
 
 - The GitHub ReadMe will include a detailed walk-through of the steps taken throughout this project. It will include information on the ETL process, descriptions of the machine learning methods used, and links to both the dashboard and final presentation.
 
-- The group will create a presentation that will be showcased at the slated date and time by UT Tutors.
+- The group will create a presentation that will be showcased on April 14th, 2022 as our Project defence date.
 
-- The project will include a database that uses various sources to gather information into one location. The sources will be listed in the GitHub ReadMe.
+- The project will include many  dataset that uses various sources to gather information into one location. The sources will be listed in the GitHub ReadMe.
 
-- The database will be hosted in the cloud so that all members can access it for both the machine learning process and the dashboard creation. 
+- The database will be hosted in the cloud(AWS) so that all members can access it for both the machine learning process and the dashboard creation. 
 
 - The database will require at least one connection string, one join, and at least two tables. 
 
