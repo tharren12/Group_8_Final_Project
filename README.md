@@ -50,8 +50,6 @@ The team will be using Jira as a tracking and collaboration tool for this projec
 
 We will be able to see ongoing or finished tasks, the time spent on these tasks, and this will make it easier to stay on track for the entire project life cycle.
 
-### ETL
-
 ### ERD
 
 This flow chart outlines the intended databases and connections that will be utilized.
@@ -73,9 +71,19 @@ S3(bucket name) = projectgroup8
 
 ### Visual Display
 
-The dashboard was created utilizing Tableau Public and an Excel file was used with various data inputs and the output from the Machine Learning model that predicts the future Housing Price.
+In order to create the dashboard Tableau Public was utilized and the Housing Prices Prediction from the Machine Learning Model was combined with the following information:
 
-![image](https://user-images.githubusercontent.com/92001105/161409280-08ae2800-923e-43fc-8dbc-8e8799aae89d.png)
+- Historical housing prices were sourced from Zillow via Kraggle
+- City Population Figures were sourced from US Census data
+- Per capita income from US Census data
+- Rental prices were sourced from Zumper National Rent Report
+- Industry information sourced from Bureau of Labour Statistics
+- Unemployment rate sourced from Bureau of Labour Statistics
+- Quality of Life Indexes sourced from Numbeo
+
+The Machine Learning extract and the above metrics were brought together and merged to create an input file for the dashboard and brough into Tableau.
+
+![image](https://user-images.githubusercontent.com/92001105/162591484-67264284-9b6e-4a2c-be15-6f9aa33d7e29.png)
 
 ### Machine Learning Model
 
