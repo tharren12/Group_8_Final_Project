@@ -83,7 +83,7 @@ This flow chart outlines the intended plan to create the machine learning model.
 
 ![Machine Learning Model Flow Chart](https://github.com/tharren12/Group_8_Final_Project/blob/500ded078ba0439e23801722cb7707570c39123b/ML_flow_chart.png)
 
-The housing data set we had contained average prices by city and a few other columns such as state, city rank, and county.
+The housing data set we have contains average prices by city and a few other columns such as state, city rank, and county.
 
 The orignal data set contained data from the entirety of the US but we have chosen to focus on a Top 50 City list.  The dataset had to be transposed so that the time series was in the rows instead of the columns.  The RegionName (city) was then set as the column names.  
 
