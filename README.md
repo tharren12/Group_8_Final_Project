@@ -23,7 +23,7 @@ We believe this is one of the major life decisions an individual or family can m
 
 https://docs.google.com/presentation/d/14glzSifOIVrHPW81Po0Lfthr_zLfvLNPCGAjE8V7Zto/edit?usp=sharing
 
-**Group 8 Dashboard link** : https://public.tableau.com/app/profile/trevor.harren/viz/HousingPricesandCityInformation/Story1?publish=yes
+**Group 8 Dashboard link** : https://public.tableau.com/app/profile/trevor.harren/viz/HousingPricesandCityInformationv3/Story2?publish=yes
 
 ## Data Sources 
 
@@ -33,7 +33,7 @@ https://docs.google.com/presentation/d/14glzSifOIVrHPW81Po0Lfthr_zLfvLNPCGAjE8V7
 * Crime statistics data via the CORGIS Dataset Project - https://corgis-edu.github.io/corgis/csv/state_crime/
 
 ## Communication Protocol
-For this project we will be using Slack in conjunction with GitHub as our communication protocols. We will using Slack for all our discussions. GitHub will be used for the technical collaboration. Any changes will be communicated through Slack before they are committed and pushed to the GitHub repository. Jupiter Notebook and Google Collab will also be used at different stages in the project. 
+For this project we will be using Slack in conjunction with GitHub as our communication protocols. We will be using Slack for all our discussions. GitHub will be used for the technical collaboration. Any changes will be communicated through Slack before they are committed and pushed to the GitHub repository. Jupiter Notebook and Google Collab will also be used at different stages in the project. 
 
 ## Individual Branches
 
@@ -75,7 +75,7 @@ S3(bucket name) = projectgroup8
 
 The dashboard was created utilizing Tableau Public and an Excel file was used with various data inputs and the output from the Machine Learning model that predicts the future Housing Price.
 
-![image](https://user-images.githubusercontent.com/92001105/160496578-b92b0dc0-7c87-4595-9b91-1919f64aa464.png)
+![image](https://user-images.githubusercontent.com/92001105/161409280-08ae2800-923e-43fc-8dbc-8e8799aae89d.png)
 
 ### Machine Learning Model
 
@@ -83,15 +83,21 @@ This flow chart outlines the intended plan to create the machine learning model.
 
 ![Machine Learning Model Flow Chart](https://github.com/tharren12/Group_8_Final_Project/blob/500ded078ba0439e23801722cb7707570c39123b/ML_flow_chart.png)
 
-Work has continued to progress on the Machine Learning model with the following work now completed preliminarily - work will continue through this week to refine and tune the model.
+The housing data set we had contained average prices by city and a few other columns such as state, city rank, and county.
 
-Data pre-processing: the orignal data set contained data from the entirety of the US but we have chosed to focus on a Top 50 City list.  The dataset had to be transposed so that the time series was in the rows instead of the columns.  The RegionName was then set as the column names.  
+The orignal data set contained data from the entirety of the US but we have chosen to focus on a Top 50 City list.  The dataset had to be transposed so that the time series was in the rows instead of the columns.  The RegionName (city) was then set as the column names.  
 
-Feature Engineering: While the data set did contain data other than time series pricing we determined that none of the additional data added anything that would enchance the models performance so all features except the time series data were dropped.
+While the data set did contain data other than the time series pricing we determined that none of the additional data added anything that would enchance the models performance so all features except the time series data were dropped (ex. county, state).  The data did not contain any features about the houses themselves which could be relevant for determing house prices.  
 
-Training/Testing: We selected data from the time period of January 2010 through to February 2020 which was the last month of data avialble from Zillow.  We used the entirety of this data to create a linear regression for each of our top cities.  
+Wee selected data from the time period of January 2010 through to February 2020 which was the last month of data avialble from Zillow.  We used the entirety of this data to create a linear regression for each of our top cities.  
 
-Model: We did create an LSTM RNN model but it significantly underperformed versus the much simpler linear regression model.  So, the linear regression model will be used to feed our dashboard.  It performed very well in half of the cities with R-squared values over 0.9.  It performed well and suggested a strong correlation betweeen time and house prices in another 35% of the cities with R-squared values between 0.7 and 0.9.  In a small percentage of the citites the R-squared values were below 0.7 suggesting that there may be other features than time affecting pricing and that a more robbust model might be more appropriate in some cases. This could be explored further in future ehnancements of this house pricing tool.  
+In parallel we did create a Linear Regression model and a LSTM RNN model but the LSTM RNN model significantly underperformed versus the much simpler Linear Regression model.  Typically, the simplest model would be generated first and a more complex model would only be considered if the simple model did not perform to a high enough standard.  However, we were looking to stretch oursleves and expand our knowledge of machine learning models so we deployed both models simulataneously knowing that the Linear Regression model would act as our baseline for comparing the LSTM RNN model.  This gave us a point of reference when trying to modify and train the LSTM RNN model.  Despite considerable effort to modify and train the LSTM RNN model we were not able to get it to match the performance of the Linear Regresssion model.  Following the guidance of good practices we must choose the Linear Regression model for our project because good practice dictates that the simplest solution with acceptable results should be used.  
+
+Therefore the the Linear Regression model will be used to feed our dashboard.  It performed very well in half of the cities with R-squared values over 0.9.  It performed well and suggested a strong correlation betweeen time and house prices in another 35% of the cities with R-squared values between 0.7 and 0.9.  In a small percentage of the citites the R-squared values were below 0.7 suggesting that there may be other features than time affecting pricing and that a more robbust model, such as ARIMA, might be more appropriate in some cases. This could be explored further in future ehnancements of this house pricing tool.  As well we established the MSE, RMSE, and MAE values for the Linear Regression model for all cities and in the LSTM RNN model for New York City.  These results can be seen in the google slides - link here- and in the stats file - add link here
+
+We are using the model to predict the average house price by Top 50 City for the year following the end of our data set.  
+
+In the future the model should continue to be trained and refined as Zillow adds additional months of data to their data file.  
 
 
 
