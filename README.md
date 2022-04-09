@@ -50,8 +50,6 @@ The team will be using Jira as a tracking and collaboration tool for this projec
 
 We will be able to see ongoing or finished tasks, the time spent on these tasks, and this will make it easier to stay on track for the entire project life cycle.
 
-### ETL
-
 ### ERD
 
 This flow chart outlines the intended databases and connections that will be utilized.
