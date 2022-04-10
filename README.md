@@ -81,7 +81,7 @@ In order to create the dashboard Tableau Public was utilized and the Housing Pri
 - Unemployment rate sourced from Bureau of Labour Statistics
 - Quality of Life Indexes sourced from Numbeo
 
-The Machine Learning extract and the above metrics were brought together and merged to create an input file for the dashboard and brough into Tableau.
+The Machine Learning extract and the above metrics were brought together and merged to create an input file for the dashboard and brought into Tableau.
 
 ![image](https://user-images.githubusercontent.com/92001105/162638814-a8910016-5b06-433d-8623-8447acb45f1f.png)
 
