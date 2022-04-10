@@ -83,7 +83,7 @@ In order to create the dashboard Tableau Public was utilized and the Housing Pri
 
 The Machine Learning extract and the above metrics were brought together and merged to create an input file for the dashboard and brough into Tableau.
 
-![image](https://user-images.githubusercontent.com/92001105/162591484-67264284-9b6e-4a2c-be15-6f9aa33d7e29.png)
+![image](https://user-images.githubusercontent.com/92001105/162638814-a8910016-5b06-433d-8623-8447acb45f1f.png)
 
 ### Machine Learning Model
 
