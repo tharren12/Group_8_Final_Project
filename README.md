@@ -15,7 +15,7 @@
 
 ## Project Overview
 
-Housing prices have continued to rise across the US, but for how much longer? What cities may see a rise in prices or a potential drop off? What factors impact the future direction of housing prices? Due to these uncertainty our project team has taken on the task of predicting how housing prices will change in the near term to provide users comfort in making geographic location change choices, when considering relocating to a new city for the long-term.
+Housing prices have continued to rise across the US, but for how much longer? What cities may see a rise in prices or a potential drop off? What factors impact the future direction of housing prices? Due to these uncertainties our project team has taken on the task of predicting how housing prices will change in the near term to provide users comfort in making geographic location change choices, when considering relocating to a new city for the long-term.
 
 We believe this is one of the major life decisions an individual or family can make and we are here to provide greater clarity for this significant decision point. In addition users will be able to use the Housing Price Prediction Tool to compare the city they are currently living in with potential new cities, in terms of incomes, population demographics, unemployment and crime statistics. This will provide users with a well-rounded resource to make a better informed decision.
 
