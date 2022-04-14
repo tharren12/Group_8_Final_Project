@@ -107,7 +107,7 @@ Therefore the the Linear Regression model will be used to feed our dashboard.  I
 
 We are using the model to predict the average house price by Top 50 City for the year following the end of our data set.  
 
-In the future the model should continue to be trained and refined as Zillow adds additional months of data to their data file.  
+In the future, the model should continue to be trained and refined as Zillow adds additional months of data to their data file.  
 
 
 
